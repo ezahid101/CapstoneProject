@@ -1,0 +1,114 @@
+#title {
+  text-align: center;
+  align-items: center;
+  color: rgb(10, 9, 9);
+  font-size: 48px;
+}
+
+#textQuestion {
+  text-align: center;
+  align-items: center;
+  color: rgb(10, 9, 9);
+  font-size: 48px;
+}
+
+#veg {
+  color: rgb(10, 9, 9);
+  font-size: 28px;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+#regular {
+  color: rgb(10, 9, 9);
+  font-size: 28px;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+#lowcarb {
+  color: rgb(10, 9, 9);
+  font-size: 28px;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+#dessert {
+  color: rgb(10, 9, 9);
+  font-size: 28px;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+#header {
+  background-color: #d4caca;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#name {
+  color: rgb(10, 9, 9);
+  font-size: 30px;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+#diet {
+  color: rgb(10, 9, 9);
+  font-size: 30px;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+#ingredients {
+  color: rgb(10, 9, 9);
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+#steps {
+  color: rgb(10, 9, 9);
+  font-size: 30px;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+#submitTitle {
+  text-align: center;
+  align-items: center;
+  color: rgb(10, 9, 9);
+  font-size: 45px;
+}
+
+#text {
+  text-align: center;
+  align-items: center;
+  color: rgb(10, 9, 9);
+  font-size: 26px;
+}
+
+#soup {
+  text-align: center;
+  align-items: center;
+}
+
+#wrap {
+  text-align: center;
+  align-items: center;
+}
+
+#contact {
+  text-align: center;
+  align-items: center;
+  color: rgb(10, 9, 9);
+  font-size: 35px;
+}
