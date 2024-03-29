@@ -1,3 +1,9 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
 #title {
   text-align: center;
   align-items: center;
@@ -59,6 +65,14 @@
   align-items: center;
 }
 
+#recipeLength {
+  color: rgb(10, 9, 9);
+  font-size: 30px;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
 #diet {
   color: rgb(10, 9, 9);
   font-size: 30px;
@@ -111,4 +125,70 @@
   align-items: center;
   color: rgb(10, 9, 9);
   font-size: 35px;
+}
+
+.container {
+  align-items: center;
+}
+
+.box {
+  float: left;
+  align-items: center;
+  background-color: #b3d4ef;
+  text-align: center;
+  width: 216px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 70px;
+}
+
+#name {
+  align-items: center;
+  text-align: center;
+  width: 1056px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #b3d4ef;
+  margin: 50px;
+}
+
+#diet {
+  width: 1056px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #b3d4ef;
+  margin: 50px;
+}
+
+#recipeLength {
+  width: 1056px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #b3d4ef;
+  margin: 50px;
+}
+
+#ingredients {
+  width: 1056px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #b3d4ef;
+
+  margin: 50px;
+}
+
+#steps {
+  width: 1056px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #b3d4ef;
+  margin: 50px;
+}
+
+#submitButton {
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  border: 1px;
 }

@@ -19,6 +19,7 @@
           <br />
           <h2><a class="navbar" href="./index.html">Home</a></h2>
           <h2><a class="navbar" href="./submit.html">Submit a Recipe</a></h2>
+          <h2><a class="navbar" href="./favorites.html">Favorites</a></h2>
           <br />
   
           <aside>
@@ -55,31 +56,45 @@
       <div id="name">
          <form action="" method="post"> 
             <label for="Name">Recipe Name:</label>
-            <textarea rows="2" cols="50"></textarea>
+            <textarea rows="2" cols="50" style="border: 3px solid #0a0a0a;"></textarea>
             <br />
       </div>
+
+      <div id="recipeLength">
+        <form action="" method="post">
+          <label for="userName">The Length:</label>
+          <textarea rows="2" cols="50" style="border: 3px solid #0a0a0a;"></textarea>
+          <br />
+          </div>
 
       <div id="diet">
         <form action="" method="post"> 
                <label for="Name">Choose Diet:</label>
-               <textarea rows="2" cols="50"></textarea>
+               <textarea rows="2" cols="50" style="border: 3px solid #0a0a0a;"></textarea>
              <br />
      </div>
       
       <div id="ingredients">
             <form action="" method="post">
               <label for="ingredients">Ingredients:</label>
-              <textarea rows="12" cols="50"></textarea>
+              <textarea rows="15" cols="50" style="border: 3px solid #0a0a0a;"></textarea>
               <br />
       </div>
 
       <div id="steps">
             <form action="" method="post">
               <label for="userName">List Steps:</label>
-              <textarea rows="18" cols="50"></textarea>
+              <textarea rows="20" cols="50" style="border: 3px solid #0a0a0a;"></textarea>
               <br />
-              <button type="button">Submit</button>
+             
       </div>
-    
+
+      <div id="submitButton">
+        <button type="button" style="height: 30px; width: 70px;">Submit</button>
+        <!-- <input type="submit" id="submitButton" value="Submit"style="height: 30px; width: 70px;"> -->
+      </div>
+     
+
+      
   </body>
 </html>
